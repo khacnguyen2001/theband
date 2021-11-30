@@ -1,0 +1,112 @@
+/* 
+    PC: >= 1024px;
+    Tablet: 740px - 1023px;
+    Mobile: > 749px;
+*/
+
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .s-full-width {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu {
+        display: block;
+    }
+
+    #header .icon-search-button {
+        display: none;
+    }
+    
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        /* cho nav ve hang doc */
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #content .menber-item {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #content .menber-img {
+        width: 60%;
+    }
+
+    .contatc-form {
+        margin-top: 32px;
+    }
+    
+    #slider .text-slider {
+        display: none;
+    }
+    
+    
+}
+
+/* tablet and mobile */
+@media (max-width: 63.9375em) {
+    .place-buy {
+        padding: 15px 16px;
+    }
+
+    .contatc-form .form-control {
+        padding: 15px;
+    }
+
+    .contact-submit-btn {
+        font-size: 17px;
+    }
+
+    .contact-submit {
+        font-size: 15px;
+    }
+
+    .social-list {
+        font-size: 48px;
+    }
+
+    #nav .subnav a {
+        
+        padding: 5px 12px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+}
